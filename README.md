@@ -18,6 +18,10 @@ Each class of training images are inside a seperate folder that name of folder i
 
 #
 
+- In **CreateModel.py** you can select pretraned model. already `MobileNet` selected as pretrained model.
+
+#
+
 - After model training, you can inference model using **inference_a.py** and **inference_b.py** files and folowing commands:
 
 
