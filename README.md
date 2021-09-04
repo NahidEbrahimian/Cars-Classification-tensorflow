@@ -32,6 +32,7 @@ Run the following command for inference on an image:
 !python3 inference_a.py --input_image ./image.jpg
 ```
 
+
 Run the following command for inference on multiple images. by inference using this command, result be saved in .txt file:
 
 ```
