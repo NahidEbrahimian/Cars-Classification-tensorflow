@@ -22,6 +22,7 @@ Each class of training images are inside a seperate folder that name of folder i
 
 #
 
+
 - After model training, you can inference model using **inference_a.py** and **inference_b.py** and folowing commands:
 
 
