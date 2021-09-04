@@ -1,4 +1,4 @@
-# ImageClassification-using-TF-TransferLearnin
+# Image Classification using TF and TransferLearnin
 
 - Training data demo, Path and Classes:
 
