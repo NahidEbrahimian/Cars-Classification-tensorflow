@@ -27,7 +27,7 @@ Dataset link: [IranianCarsDataset]( https://drive.google.com/drive/folders/1C4RZ
 
 - After model training, you can inference model using `inference_a.py` and `inference_b.py` and folowing commands.
 
-1- Download trained model from this [link]( https://drive.google.com/drive/folders/1oB-TYojq2VELADOlBaKFIkPtC75aRO66?usp=sharing)
+1- Download trained model from this link: [download model]( https://drive.google.com/drive/folders/1oB-TYojq2VELADOlBaKFIkPtC75aRO66?usp=sharing)
 
 2- Put your input images in `./input` directory.
 
