@@ -37,7 +37,7 @@ In root directory of project, run the following command for inference on an imag
 !python3 inference_a.py --input_image ./input/image.jpg
 ```
 
-Run the following command for inference on multiple images. by inference using this command, result be saved in .txt file:
+Run the following command for inference on multiple images. by inference using this command, result be saved in `.txt` file:
 
 ```
 !python3 inference_b.py --input_path ./input --output_file output_file_name.txt
