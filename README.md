@@ -1,5 +1,11 @@
 # Image Classification using TF and Transfer Learning
 
+- [ ] train.ipynb
+
+- [x] inference.py
+
+- [ ] model.py
+
 ## Dataset:
 
         .../IranianCarsDataset/iranKhodro_dena/1.jpg, 2.jpg, ..., n.jpg
