@@ -1,16 +1,16 @@
 # Iranian Cars Classification using TF
 
-- [x] train.ipynb
+- [ ] train.ipynb
 
-- [x] inference.py
+- [ ] inference.py
 
-- [x] preprocess.py
+- [ ] preprocess.py
 
-- [x] models.py
+- [ ] models.py
 
 ## Dataset:
 
-The data set contains 2100 images of the car in five categories.
+Dataset contains 2100 images of the cars in five categories.
 
         .../IranianCarsDataset/iranKhodro_dena/1.jpg, 2.jpg, ..., n.jpg
 
@@ -30,18 +30,18 @@ Dataset link: [IranianCarsDataset]( https://drive.google.com/drive/folders/1ymuR
 
 | Pre_trained Model | Accuracy | Model |
 | :---         |     :---:      |          :---: |
-| MobileNetV2  | 0.97     | [mobilenetV2.h5]    |
-|ResNet50V2     | 0.86       | [resnet50V2.h5]    |
-|inceptionV3    | 0.37       | [inceptionV3.h5]      |
+| MobileNetV2  |      |     |
+|ResNet50V2     |        |    |
+|inceptionV3    |        |      |
 
 #
 
 
-## Inference
+## Inference:
 
 - Inference on an image:
 
-1- Download trained model from this link: [download model]( https://drive.google.com/drive/folders/1oB-TYojq2VELADOlBaKFIkPtC75aRO66?usp=sharing)
+1- Download trained model from this link: [download model]()
 
 2- Put your input images in `./input` directory.
 
@@ -50,6 +50,8 @@ In root directory of project, run the following command for inference on an imag
 ```
 !python3 inference_a.py --input_image ./input/image.jpg
 ```
+
+- Inference on multiple images:
 
 Run the following command for inference on multiple images. by inference using this command, result be saved in `.txt` file:
 
