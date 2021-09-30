@@ -1,12 +1,16 @@
-# Image Classification using TF and Transfer Learning
+# Iranian Cars Classification using TF
 
-- [ ] train.ipynb
+- [x] train.ipynb
 
 - [x] inference.py
 
-- [ ] model.py
+- [x] preprocess.py
+
+- [x] models.py
 
 ## Dataset:
+
+The data set contains 2100 images of the car in five categories.
 
         .../IranianCarsDataset/iranKhodro_dena/1.jpg, 2.jpg, ..., n.jpg
 
@@ -22,16 +26,20 @@ Dataset link: [IranianCarsDataset]( https://drive.google.com/drive/folders/1ymuR
 
 #
 
-## Training
+## Training:
 
-- In `model.py` you can select pretraned model. already `MobileNet` selected as pretrained model.
+| Pre_trained Model | Accuracy | Model |
+| :---         |     :---:      |          :---: |
+| MobileNetV2  | 0.97     | [mobilenetV2.h5]    |
+|ResNet50V2     | 0.86       | [resnet50V2.h5]    |
+|inceptionV3    | 0.37       | [inceptionV3.h5]      |
 
 #
 
 
 ## Inference
 
-- After model training, you can inference model using `inference_a.py` and `inference_b.py` and folowing commands.
+- Inference on an image:
 
 1- Download trained model from this link: [download model]( https://drive.google.com/drive/folders/1oB-TYojq2VELADOlBaKFIkPtC75aRO66?usp=sharing)
 
