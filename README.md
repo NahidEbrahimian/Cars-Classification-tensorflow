@@ -30,20 +30,28 @@ Dataset link: [IranianCarsDataset]( https://drive.google.com/drive/folders/1ymuR
 
 | Pre_trained Model | Accuracy | Model |
 | :---         |     :---:      |          :---: |
-| MobileNetV2  |      |     |
+| MobileNetV2  | 0.71| [Download]( https://drive.google.com/file/d/1-9vG-O2_raP1fHnR2hmq1aZPcSUqz5QH/view?usp=sharing)|
 |ResNet50V2     |        |    |
-|inceptionV3    |        |      |
+|inceptionV3    |  0.71      | ][Download]( https://drive.google.com/file/d/1-6FHKt8wgvvSAEDSlyqNfs4vcAqIRXeq/view?usp=sharing)|     |
 
 #
 
 
 ## Inference:
 
+1- For inference, first clone this repository using the following command:
+
+```
+git clone https://github.com/NahidEbrahimian/Iranian-Cars-Classification-tensorflow
+
+```
+
+2- Then, download pre-trained model from the table and put in `./Iranian-Cars-Classification-tensorflow` directory.
+
+
 - Inference on an image:
 
-1- Download trained model from this link: [download model]()
-
-2- Put your input images in `./input` directory.
+Put your input images in `./input` directory.
 
 In root directory of project, run the following command for inference on an image:
 
@@ -58,3 +66,4 @@ Run the following command for inference on multiple images. by inference using t
 ```
 !python3 inference_b.py --input_path ./input --output_file output_file_name.txt
 ```
+
