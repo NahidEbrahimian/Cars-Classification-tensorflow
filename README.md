@@ -1,12 +1,21 @@
 # Iranian Cars Classification using TF
 
-- [ ] train.ipynb
 
-- [ ] inference.py
 
-- [ ] preprocess.py
+| ![01](https://user-images.githubusercontent.com/82975802/136616267-19f31a62-958b-441f-a459-cb9891c20090.png)| ![02](https://user-images.githubusercontent.com/82975802/136616818-5ce0c329-0cf4-4109-86eb-843c18873d7f.png)| ![05](https://user-images.githubusercontent.com/82975802/136615270-66586596-4f17-49c2-9b8c-dfcf64e5de48.png)| 
+|     :---:      |     :---:      |      :---:      |
 
-- [ ] models.py
+|![04](https://user-images.githubusercontent.com/82975802/136615306-569de517-c9bd-4b39-bfb1-f1d6acca1eaf.png)| ![03](https://user-images.githubusercontent.com/82975802/136615737-aaef3e4d-4442-4a61-9754-02dcac0a4753.png) |
+|      :---:      |      :---:      |
+
+
+- [x] train.ipynb
+
+- [x] inference.py
+
+- [x] preprocess.py
+
+- [x] models.py
 
 ## Dataset:
 
@@ -56,7 +65,7 @@ Put your input images in `./input` directory.
 In root directory of project, run the following command for inference on an image:
 
 ```
-!python3 inference_a.py --input_image ./input/image.jpg
+python3 inference_a.py --input_image input/03-mazda.jpg --mode mobilenetV2.h5
 ```
 
 - Inference on multiple images:
@@ -64,6 +73,6 @@ In root directory of project, run the following command for inference on an imag
 Run the following command for inference on multiple images. by inference using this command, result be saved in `.txt` file:
 
 ```
-!python3 inference_b.py --input_path ./input --output_file output_file_name.txt
+python3 inference_b.py --input_images input --model mobilenetV2.h5 --output_file test_inferense.txt
 ```
 
