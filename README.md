@@ -30,9 +30,9 @@ Dataset link: [IranianCarsDataset]( https://drive.google.com/drive/folders/1ymuR
 
 | Pre_trained Model | Accuracy | Model |
 | :---:         |     :---:      |          :---: |
-| MobileNetV2  | 0.71| [Download]( https://drive.google.com/file/d/1-9vG-O2_raP1fHnR2hmq1aZPcSUqz5QH/view?usp=sharing)|
-|ResNet50V2     |        |    |
-|inceptionV3    |  0.71      | [Download]( https://drive.google.com/file/d/1-6FHKt8wgvvSAEDSlyqNfs4vcAqIRXeq/view?usp=sharing)|     |
+| MobileNetV2  | 0.716| [Download]( https://drive.google.com/file/d/1-9vG-O2_raP1fHnR2hmq1aZPcSUqz5QH/view?usp=sharing)|
+|ResNet50V2     |   0.7136     |[Download]( https://drive.google.com/file/d/1Blv-AesEu4RjnD9Yk9OsrjAl-5DoL9MM/view?usp=sharing)    |
+|inceptionV3    |  0.7184      | [Download]( https://drive.google.com/file/d/1-6FHKt8wgvvSAEDSlyqNfs4vcAqIRXeq/view?usp=sharing)|     |
 
 #
 
