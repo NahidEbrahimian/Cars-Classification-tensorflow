@@ -51,7 +51,7 @@ git clone https://github.com/NahidEbrahimian/Iranian-Cars-Classification-tensorf
 
 - Inference on an image:
 
-3-1- Put your input images in `./input` directory.
+Put your input images in `./input` directory.
 
 In root directory of project, run the following command for inference on an image:
 
@@ -61,7 +61,7 @@ In root directory of project, run the following command for inference on an imag
 
 - Inference on multiple images:
 
-3-2- Run the following command for inference on multiple images. by inference using this command, result be saved in `.txt` file:
+Run the following command for inference on multiple images. by inference using this command, result be saved in `.txt` file:
 
 ```
 !python3 inference_b.py --input_path ./input --output_file output_file_name.txt
